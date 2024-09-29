@@ -5,12 +5,12 @@
 
 ### 1. AI System Overview
 ### 1.What type of AI system will the team investigate?
- Our team investigate on Regression AI System We utilized supervised learning techniques to train and construct a model based on dataset. The aim of our project is to predict the value of the dependent variable based on the independent variable.
+ The investigate on Regression AI System We utilized supervised learning techniques to train and construct a model based on dataset. The aim of our project is to predict the value of the dependent variable based on the independent variable.
 
 
 
 ### 2.What AI system has the team selected?
-Our team selected regression model that predicts how many calories burned during an exercise. It predicts the output based on given input variables for that we have selected the regression model. Our project involves building regression models, particularly linear regression and XGBoost, to predict calories burned during exercise. 
+The  selected regression model that predicts how many calories burned during an exercise. It predicts the output based on given input variables for that we have selected the regression model. Our project involves building regression models, particularly linear regression and XGBoost, to predict calories burned during exercise. 
 
 
 
@@ -20,17 +20,17 @@ Our team selected regression model that predicts how many calories burned during
 To get started with our project, we explored into various sources of information to understand the concepts of linear regression, XGBoost, and relevant Python libraries. We extensively relied on online resources such as wikipedia, geekforgeeks(for implementation), Kaggle(for the dataset), Javapoint, scikit-learn, study.com, DANA PESSACH∗, EREZ
 SHMUELI. 21 Jan,2020. Algorithmic Fairness, Department of Industrial Engineering, Tel-Aviv University, Israel. https://arxiv.org/abs/2001.09784 (This is a paper on ‘Algorithimic Fairness’) and study.com. These websites provided comprehensive explanations, tutorials, and examples to help us grasp the fundamental concepts and practical applications of linear regression and XGBoost.
 
- We referred various sources for guidance. The online platforms like Wikipedia, GeeksforGeeks, Kaggle, Javapoint, and study.com. These websites provided us with detailed explanations, tutorials, and real-world examples with demonstrative implementations, helping us grasp the core concepts of both algorithms, linear regression and XGBoost. Additionally, we explored Python libraries such as pandas, matplotlib, and seaborn to understand how to manipulate data, visualize it, and analyze it effectively. We also delved into academic papers such as "Algorithmic Fairness" by DANA PESSACH and EREZ SHMUELI from Tel-Aviv University, which provided valuable insights into ethical considerations in machine learning. By leveraging these diverse resources, we gained a comprehensive understanding of the techniques needed to build our AI system. This approach enabled us to implement linear regression and XGBoost algorithms for our project.
+ And referred various sources for guidance. The online platforms like Wikipedia, GeeksforGeeks, Kaggle, Javapoint, and study.com. These websites provided us with detailed explanations, tutorials, and real-world examples with demonstrative implementations, helping us grasp the core concepts of both algorithms, linear regression and XGBoost. Additionally, we explored Python libraries such as pandas, matplotlib, and seaborn to understand how to manipulate data, visualize it, and analyze it effectively. We also delved into academic papers such as "Algorithmic Fairness" by DANA PESSACH and EREZ SHMUELI from Tel-Aviv University, which provided valuable insights into ethical considerations in machine learning. By leveraging these diverse resources, we gained a comprehensive understanding of the techniques needed to build our AI system. This approach enabled us to implement linear regression and XGBoost algorithms for our project.
 
  ### 2.Relevant Theoretical Background
  #### 1.What your AI system does and How the system works.
- Our AI system predicts the number of calories burned during exercise based on various input variables such as exercise type, duration, age, heart rate, etc. It utilizes regression techniques, specifically linear regression and XGBoost regression, to model the relationship between these input variables and the target variable (calories burned).
+ AI system predicts the number of calories burned during exercise based on various input variables such as exercise type, duration, age, heart rate, etc. It utilizes regression techniques, specifically linear regression and XGBoost regression, to model the relationship between these input variables and the target variable (calories burned).
  
  The AI system initiates by collecting exercise session data, encompassing variables like exercise type, duration, age, and heart rate. Following data preprocessing, including handling missing values and encoding categorical variables, the system trains two models: Linear Regression and XGBoost Regression. Evaluation metrics like MSE and RMSE gauge model performance, culminating in predictions of calories burned during exercise based on provided parameters. Overall, the system efficiently predicts calories burned by iteratively refining models through training, evaluation, and prediction phases.
 
 ***Key Concepts and Techniques***
 
-In our project, supervised learning invole training our AI model with labeled data, pairing inputs (such as exercise type, duration, age, heart rate) with corresponding outputs (calories burned), allowing the model to predict calorie expenditure accurately.
+In this project, supervised learning invole training our AI model with labeled data, pairing inputs (such as exercise type, duration, age, heart rate) with corresponding outputs (calories burned), allowing the model to predict calorie expenditure accurately.
 
 
 Regression, as applied in our project, focuses on predicting a continuous value in this case, the amount of calories burned during exercise by establishing relationships between input variables (e.g., exercise type, duration, age, heart rate) and the output variable (calories burned).
